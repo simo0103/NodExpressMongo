@@ -1,0 +1,18 @@
+$ npm install express --save
+$ npm install body-parser //gestisce le HTTP POST request
+$ npm install mongoose //crea schemi e modelli del db
+$ npm install -g nodemon //aggiorna il server in automatico a ogni modifica
+
+> cerchiamo di far connettere node al db con mongoose (vedere db.js) 
+> poi creiamo uno schema e un modello (menu.model.js)
+> setuppiamo la porta nel file server.js
+> runniamo l'app con nodemon $ nodemon server.js
+> creare un controller con il metodo GET  e un router
+> importare il controller nel server.js
+------------------------
+GET           Read
+POST          Create
+PUT           Update
+DELETE        Delete
+------------------------
+> $ npm install express-handlebars
